@@ -10,7 +10,7 @@ using UnityEngine.Serialization;
 using RunningMode = Mediapipe.Tasks.Vision.Core.RunningMode;
 using UnityEngine.Events;
 
-// namespace Engine {
+namespace SLR_GTk.Package.Scripts.Engine {
     public class SimpleExecutionEngine : MonoBehaviour
     {
         [SerializeField] private Preview.UnityMpHandPreviewPainter screen;
@@ -184,4 +184,4 @@ using UnityEngine.Events;
             lastRecognizedSign = "";
         }
     }
-// }
+}
