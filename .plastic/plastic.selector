@@ -1,4 +1,0 @@
-repository "MobileFishPort/MobileFishPort@2475785932912@cloud"
-  path "/"
-    br "/main"
-    co "/main"
